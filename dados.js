@@ -11,7 +11,7 @@ const dados = [
 const data = new Date();
 const dia = data.getDate();
 const semana = data.getDay();
-const mes = data.getMonth();
+const mes = data.getMonth()+1;
 const ano = data.getFullYear()
 const hora = data.getHours();
 
